@@ -111,6 +111,13 @@ repositories {
 }
 
 dependencies {
+
+    implementation rfg.deobf("curse.maven:quark-243121:2924091")
+
+    implementation rfg.deobf("curse.maven:quark-250363:2746011")
+
+
+
     if (propertyBool('use_modern_java_syntax')) {
         annotationProcessor 'com.github.bsideup.jabel:jabel-javac-plugin:1.0.0'
         // Workaround for https://github.com/bsideup/jabel/issues/174
